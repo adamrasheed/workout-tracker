@@ -1,0 +1,13 @@
+.button {
+  border: none;
+  background: pink;
+  text-align: center;
+}
+
+.button.primary {
+  background: red;
+}
+
+.button.secondary {
+  background: lightblue;
+}

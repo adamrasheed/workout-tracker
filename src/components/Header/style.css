@@ -1,0 +1,18 @@
+.header {
+  background: rgb(226, 226, 226);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-content: center;
+  padding: 1rem;
+}
+
+.title {
+  margin: 0;
+  line-height: 1;
+  align-self: center;
+}
+
+.user {
+  align-self: center;
+  justify-self: end;
+}
