@@ -6,10 +6,10 @@ export interface ButtonProps {
   onClick: VoidFunction,
   primary?: Boolean,
   secondary?: Boolean,
-  children: React.ReactChildren
+  children: React.ReactNode
 }
 
-const Button: React.SFC<ButtonProps> = ({ primary, secondary, onClick, children }) => {
+const Button: React.FC<ButtonProps> = ({ primary, secondary, onClick, children }) => {
   const buttonStyles = cn(
     style.button,
     primary && style.primary,
