@@ -7,8 +7,9 @@ function App() {
   return (
     <div className="App">
       <Header user="Adam" />
-
-      <Button primary onClick={() => console.log('clicekd button')}>Add Workout</Button>
+      {/* Settings */}
+      {/* Metrics */}
+      <Button primary onClick={() => console.log('clicked button')}>Add Workout</Button>
     </div>
   );
 }
